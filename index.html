@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto X-Men - Semana do Zero Ao Programador Contratado</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  <link rel="stylesheet" href="src/css/media.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="src/Personagens/logo.png" alt="Logo One piece">
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="luffy" data-name="Monkey D. Luffy" data-description="Ele come demais e adora festas. Ele se diverte por ter essa personalidade livre, mas age com suas próprias crenças sem se vincular ao bom senso, e confia muito em seus Companheiros!">
+          <img src="./src/Recompensas/luffy.png" alt="Personagem Luffy" />
+        </li>
+        <li class="personagem" id="zoro" data-name="Roronoa Zoro" data-description="O primeiro membro dos Piratas do Chapéu de Palha, um espadachim em quem Luffy tem muita confiança. Quando criança, Zoro tinha um amiga de infância, Kuina, que treinava muito com espadas. No entanto, ele nunca conseguiu superá-la devido ao incidente que tirou a vida dela. Para cumprir a promessa que fez a ela, Zoro pretende ser o “Maior Espadachim do Mundo”. Sua crença é forte e feroz, sempre está treinando duro e gosta da adversidade quando se trata de lutar, ele busca os oponentes mais fortes mesmo que coloque sua vida em risco. Com qualidades de líder e possuidor de um forte senso de dever, está disposto a evoluir com seus Companheiros. Apesar de apoiar e acompanhar seu Capitão Luffy, ele também assume atitudes difíceis em casos de emergência.">
+          <img src="./src/Recompensas/zoro.png" alt="Personagem Roronoa Zoro" />
+        </li>
+        <li class="personagem" id="nami" data-name="Nami" data-description="A Navegadora do bando que guia o navio com uma riqueza de conhecimentos sobre viagens e um talento natural para prever o clima. Sem ela, a jornada não seria completa. Já era ótima em fazer cartas náuticas desde criança, e seu sonho é fazer um mapa-mundi um dia. Ela odiava piratas porque sua cidade natal era dominada por eles, mas ela foi salva por Luffy e se tornou sua Companheira. Ela tem uma personalidade forte, e não é apenas somente uma guia para o navio, mas também uma membro da tripulação. Ela é muito séria quando se trata de dinheiro, geralmente dá uma martelada nos seus Companheiros que gastam muito dinheiro.">
+          <img src="./src/Recompensas/nami.png" alt="Personagem Nami" />
+        </li>
+        <li class="personagem" id="usopp" data-name="Usopp" data-description="Seu pai é o atirador dos Piratas do Ruivo e ele sonha em se tornar um bravo guerreiro do mar. Ele tem um braço de atirador herdado de seu pai e serve como um atirador no bando dos Chapéus de Palha. Ele é bom em mentir e blefar, as vezes dá errado, mas pode ser útil na batalha. Suas mãos também são muito hábeis e ele é bom em inventar ferramentas e armas. Até a entrada de Franky, ele também era responsável pelos reparos do navio. Sua personalidade é tímida e negativa. Ele se depara muitas vezes por aventuras perigosas e encontros com inimigos fortes, mas arranca coragem para se levantar de passo em passo se aproxima de se tornar um “bravo guerreiro”!">
+          <img src="./src/Recompensas/usopp.png" alt="Personagem Usopp" />
+        </li>
+        <li class="personagem" id="sanji" data-name="Vinsmoke Sanji" data-description="Ex-Vice-Chef do Restaurante Marítimo “Baratie”. Sua boca é suja, mas sua habilidade de cozinhar é de primeira classe como Cozinheiro do Mar. Seu sonho é encontrar o mar lendário, “All Blue”, com frutos do mar de todo o mundo. De um prato saudável que enche o estômago de um grande glutão como Luffy até um prato delicado que satisfaça a língua das tripulantes femininas. Ele mostra um forte interesse em ingredientes e pratos desconhecidos e se mantém com uma aspiração insaciável. Não sabe apenas cozinhar, mas também sabe lutar com a técnica poderosa do seu mestre Zeff da Perna Vermelha. Contra homens é impiedoso, mas contra mulheres é mortalmente vulnerável. Suas ideias e ações já salvaram o bando muitas vezes.">
+          <img src="./src/Recompensas/sanji.png" alt="Personagem Vinsmoke Sanji" />
+        </li>
+        <li class="personagem" id="chopper" data-name="Tony Tony Chopper" data-description="Embora ele seja um excelente médico no navio com um alto nível de conhecimento e habilidade, ele usa suas habilidades de Akuma no Mi para lutar duro e não se importa mais de se tornar um monstro para ajudar seu Capitão e seus Companheiros! Como ele é originalmente uma rena, tem o faro dos animais e consegue conversar com todos eles.">
+          <img src="./src/Recompensas/chopper.png" alt="Personagem Tony Tony Chopper" />
+        </li>
+        <li class="personagem" id="robin" data-name="Nico Robin" data-description="Uma excelente arqueóloga que cresceu em Ohara, o solo sagrado da arqueologia, e recebeu um doutorado em tenra idade. Seu sonho é ver a relíquia que descreve a verdade da história, o Rio Ponegliph. Foi a única sobrevivente de Ohara, onde o Governo Mundial o erradicou, e foi chamada de “Filha do Demônio” porque ela podia decifrar os textos antigos. Para sobreviver, ela vagou pelo submundo e ninguém confiava nela, mas se encontrou no bando dos Chapéus de Palha. Enquanto se aventura com Luffy e outros, aproxime-se da verdade da história perdida!">
+          <img src="./src/Recompensas/robin.png" alt="Personagem Nico Robin" />
+        </li>
+        <li class="personagem" id="franky" data-name="Franky" data-description="Discípulo do lendário carpinteiro de Water Seven, Tom, o homem que construiu o novo navio dos Chapéus de Palha, Thousand Sunny. Seu sonho é construir o “Navio dos Sonhos” e levá-lo até o “fim do mar”. Ele embarcou em uma jornada de aventuras com o bando para ver com seus olhos o final do Sunny. Como carpinteiro da tripulação, realiza toda a manutenção, remodelação e reparos no navio durante a viagem. Não apenas navios, mas também desenvolve armas. Ele também é um Ciborgue cujo o corpo foi modificado após ser gravemente ferido em um acidente, e está cheio de truques e armas misteriosas além do conhecimento humano!">
+          <img src="./src/Recompensas/franky.png" alt="Personagem Franky" />
+        </li>
+        <li class="personagem" id="brook" data-name="Brook" data-description="Ele morreu com seus Companheiros dos Piratas Rumba quando foram aniquilados, mas foi revivido pelo poder da Yomi Yomi no Mi (Fruta da Ressurreição) que comeu durante sua vida. No entanto, como sua alma demorou para se reencarnar, seu corpo se decompôs e se tornou um esqueleto vivo. Depois disso, ele vagou sozinho no mar por 50 anos até conhecer Luffy. Juntar-se à tripulação para reencontrar a baleia Laboon, que prometeu se encontrar novamente. Ele é um espadachim que se orgulha de sua habilidade de cortar rapidamente seus oponentes e é um excelente músico que pode tocar vários instrumentos musicais. Juntamente com uma personalidade alegre, leva o poder da música que dá vida ao bando dos Chapéus de Palha!">
+          <img src="./src/Recompensas/brook.png" alt="Personagem Brook" />
+        </li>
+        <li class="personagem" id="jinbe" data-name="Jinbe" data-description="Ex-Shichibukai, foi o segundo Capitão dos Piratas do Sol. Ele é um Tritão Tubarão-Baleia e é conhecido como “Cavaleiro do Mar”. Ele é um mestre em Karatê Tritão, e respeita a lealdade e bondade, e tem uma personalidade que segue os princípios da justiça. Ele conheceu o bando todo dos Chapéus de Palha na Ilha dos Tritões ao suprimir a guerra civil causada pelos Novos Piratas Tritões. Depois disso, Luffy o convidou para ser um dos seus Companheiros do bando. Ele recusou naquele momento, mas no País de Wano, se se tornou Timoneiro do bando dos Chapéus de Palha.">
+          <img src="./src/Recompensas/jinbe.png" alt="Personagem Jinbe" />
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="src/Personagens/luffy_full.png" alt="Personagem Selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Monkey D. Luffy</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+          Ele come demais e adora festas. Ele se diverte por ter essa personalidade livre, mas age com suas próprias
+          crenças sem se vincular ao bom senso, e confia muito em seus Companheiros!
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape">
+    <p>Feito por Paulo Henrique</p>
+  </footer>
+  <script src="src/js/main.js"></script>
+</body>
+
+</html>
